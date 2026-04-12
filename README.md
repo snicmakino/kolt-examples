@@ -1,13 +1,13 @@
-# keel-examples
+# kolt-examples
 
-Example projects for [keel](https://github.com/snicmakino/keel) — a lightweight Kotlin build tool.
+Example projects for [kolt](https://github.com/snicmakino/kolt) — a lightweight Kotlin build tool.
 
-Each subdirectory is a standalone keel project. To try one:
+Each subdirectory is a standalone kolt project. To try one:
 
 ```bash
 cd hello-world
-keel build
-keel run
+kolt build
+kolt run
 ```
 
 ## Examples
@@ -18,6 +18,6 @@ keel run
 
 ## Requirements
 
-- [keel](https://github.com/snicmakino/keel) installed and on PATH
+- [kolt](https://github.com/snicmakino/kolt) installed and on PATH
 - JDK 17+
 - kotlinc 2.1.0+

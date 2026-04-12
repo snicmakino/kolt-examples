@@ -1,10 +1,10 @@
 # hello-world
 
-A minimal keel project that prints "Hello, world!".
+A minimal kolt project that prints "Hello, world!".
 
 ## Run
 
 ```bash
-keel build
-keel run
+kolt build
+kolt run
 ```
