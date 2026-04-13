@@ -15,6 +15,7 @@ kolt run
 | Directory | Description |
 |---|---|
 | [hello-world](hello-world/) | Minimal Hello World example |
+| [native-serialization](native-serialization/) | `target = "native"` with `kotlinx.serialization` `@Serializable` round-trip |
 
 ## Requirements
 
