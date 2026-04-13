@@ -2,7 +2,7 @@ name = "native-serialization"
 version = "0.1.0"
 kotlin = "2.1.0"
 target = "native"
-main = "MainKt"
+main = "main"
 sources = ["src"]
 
 [dependencies]
