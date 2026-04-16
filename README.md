@@ -16,6 +16,7 @@ kolt run
 |---|---|
 | [hello-world](hello-world/) | Minimal Hello World example |
 | [native-serialization](native-serialization/) | `target = "native"` with `kotlinx.serialization` `@Serializable` round-trip |
+| [http-client](http-client/) | OkHttp dependency with MockWebServer tests |
 
 ## Requirements
 
