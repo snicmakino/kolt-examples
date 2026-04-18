@@ -1,12 +1,16 @@
 name = "native-serialization"
 version = "0.1.0"
-kotlin = "2.1.0"
+
+[kotlin]
+version = "2.3.20"
+
+[kotlin.plugins]
+serialization = true
+
+[build]
 target = "native"
 main = "main"
 sources = ["src"]
 
 [dependencies]
 "org.jetbrains.kotlinx:kotlinx-serialization-json" = "1.7.3"
-
-[plugins]
-serialization = true
