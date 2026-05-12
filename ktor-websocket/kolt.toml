@@ -1,0 +1,20 @@
+name = "ktor-websocket"
+version = "0.1.0"
+
+[kotlin]
+version = "2.3.20"
+
+[build]
+target = "jvm"
+jvm_target = "25"
+main = "main"
+sources = ["src"]
+
+[dependencies]
+"io.ktor:ktor-server-netty-jvm" = "3.4.3"
+"io.ktor:ktor-server-websockets-jvm" = "3.4.3"
+"ch.qos.logback:logback-classic" = "1.5.32"
+
+[test-dependencies]
+"io.ktor:ktor-server-test-host-jvm" = "3.4.3"
+"io.ktor:ktor-client-websockets-jvm" = "3.4.3"

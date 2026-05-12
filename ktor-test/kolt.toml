@@ -1,0 +1,24 @@
+name = "ktor-test"
+version = "0.1.0"
+
+[kotlin]
+version = "2.3.20"
+
+[kotlin.plugins]
+serialization = true
+
+[build]
+target = "jvm"
+jvm_target = "25"
+main = "main"
+sources = ["src"]
+
+[dependencies]
+"io.ktor:ktor-server-netty-jvm" = "3.4.3"
+"io.ktor:ktor-server-content-negotiation-jvm" = "3.4.3"
+"io.ktor:ktor-serialization-kotlinx-json-jvm" = "3.4.3"
+"ch.qos.logback:logback-classic" = "1.5.32"
+
+[test-dependencies]
+"io.ktor:ktor-server-test-host-jvm" = "3.4.3"
+"io.ktor:ktor-client-content-negotiation-jvm" = "3.4.3"
